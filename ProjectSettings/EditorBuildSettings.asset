@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/SceneMain.unity
+    guid: 201d40b5bc6441640aa1e5b49565124b
+  - enabled: 1
+    path: Assets/Scene/ScanMenu.unity
+    guid: 7a6b7989d0316a54696bef5731a7ec2e
+  - enabled: 1
+    path: Assets/Scene/SceneMapa.unity
+    guid: b3b81943d6c17c04690dc471fb307795
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 26132014b8116e3428dc1ad0ab8659f8, type: 2}
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 7e0fbc4698124f243b759e14d20793e4, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3e187cae7edbda5428c1e8884c0f9449, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 68dad73226eccfd4db2ff52f4a9ccb64, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: edcfff6e68ad7934ebacef77188e4e2e, type: 2}

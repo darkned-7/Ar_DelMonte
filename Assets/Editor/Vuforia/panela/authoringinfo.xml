@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v5.8.5">
+        <ModelTarget name="panela" targetId="8c9c24dc8af243fbb8fb51fcd1c93f7f" version="13.0" toolVersion="v5.8.5" bbox="-0.081821 0.433611 -0.182222 0.556300 0.457476 0.350778" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="panela" assemblyId="8c16ebd0527d4ad9952ab14086cb5dfa">
+        <Part name="panela" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>
