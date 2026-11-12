@@ -1365,19 +1365,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -73.4
+      value: -75.9
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1385,7 +1385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 3.11
+      value: 5.25
       objectReference: {fileID: 0}
     - target: {fileID: 1456150523210981430, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Camera
@@ -1399,6 +1399,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 60627b58a0593d143a2283edb9520184, type: 3}
+    - target: {fileID: 2669964067720652207, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2722251120337937089, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Name
       value: MarkerAnchors
@@ -1435,29 +1439,33 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5364974869246758635, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5541489425187388894, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: d901c949a23bab9408e7fb2c3314d5f9, type: 3}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -95.8
+      value: -95.6
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 26.92
+      value: 24.51
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2450,6 +2458,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.34
+      objectReference: {fileID: 0}
     - target: {fileID: 1456150523210981430, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Camera
       value: 
@@ -2462,6 +2486,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 60627b58a0593d143a2283edb9520184, type: 3}
+    - target: {fileID: 2669964067720652207, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2722251120337937089, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Name
       value: MarkerAnchors
@@ -2498,10 +2526,38 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5364974869246758635, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5541489425187388894, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: d901c949a23bab9408e7fb2c3314d5f9, type: 3}
+    - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 19.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 7398844440401290736, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Name
       value: Pin_Canvas_Trova
@@ -2995,7 +3051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.3
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3021,6 +3077,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 60627b58a0593d143a2283edb9520184, type: 3}
+    - target: {fileID: 2669964067720652207, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2722251120337937089, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Name
       value: MarkerAnchors
@@ -3057,6 +3117,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5364974869246758635, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5541489425187388894, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3075,7 +3139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.7
+      value: 13.8
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3799,12 +3863,28 @@ PrefabInstance:
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 635209955173527209, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 635209955173527209, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -61.9
+      value: -61.1
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3812,7 +3892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -4.03
+      value: -1.54
       objectReference: {fileID: 0}
     - target: {fileID: 1456150523210981430, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Camera
@@ -3826,6 +3906,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 60627b58a0593d143a2283edb9520184, type: 3}
+    - target: {fileID: 2669964067720652207, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2722251120337937089, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Name
       value: MarkerAnchors
@@ -3855,16 +3939,36 @@ PrefabInstance:
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3226616983276188103, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3226616983276188103, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5364974869246758635, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5541489425187388894, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: d901c949a23bab9408e7fb2c3314d5f9, type: 3}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -75.6
+      value: -77.6
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6688,7 +6792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.3
+      value: 19.9
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6710,6 +6814,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 60627b58a0593d143a2283edb9520184, type: 3}
+    - target: {fileID: 2669964067720652207, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2722251120337937089, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Name
       value: MarkerAnchors
@@ -6746,6 +6854,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5364974869246758635, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5541489425187388894, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -6764,7 +6876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.2
+      value: 7.83
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -9173,19 +9285,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.25
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.25
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.25
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -205.5
+      value: -213.2
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -9207,6 +9319,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 60627b58a0593d143a2283edb9520184, type: 3}
+    - target: {fileID: 2669964067720652207, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2722251120337937089, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Name
       value: MarkerAnchors
@@ -9243,25 +9359,29 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5364974869246758635, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5541489425187388894, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: d901c949a23bab9408e7fb2c3314d5f9, type: 3}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.25
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.25
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.25
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -211.3
+      value: -218.7
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -10973,7 +11093,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -88.1
+      value: -90.1
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -10995,6 +11115,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 60627b58a0593d143a2283edb9520184, type: 3}
+    - target: {fileID: 2669964067720652207, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2722251120337937089, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Name
       value: MarkerAnchors
@@ -11031,13 +11155,17 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5364974869246758635, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5541489425187388894, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: d901c949a23bab9408e7fb2c3314d5f9, type: 3}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -92.4
+      value: -95.7
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -12648,7 +12776,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.63
+      value: 6.55
       objectReference: {fileID: 0}
     - target: {fileID: 1121487063674220658, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -12670,6 +12798,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 60627b58a0593d143a2283edb9520184, type: 3}
+    - target: {fileID: 2669964067720652207, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2722251120337937089, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Name
       value: MarkerAnchors
@@ -12706,6 +12838,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5364974869246758635, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5541489425187388894, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -12724,7 +12860,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.1
+      value: 7.13
       objectReference: {fileID: 0}
     - target: {fileID: 6983381602829949750, guid: 9d200acb978ea1445946048d2f44f78e, type: 3}
       propertyPath: m_AnchoredPosition.x
