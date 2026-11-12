@@ -9,10 +9,10 @@ EditorBuildSettings:
     path: Assets/Scene/SceneMain.unity
     guid: 201d40b5bc6441640aa1e5b49565124b
   - enabled: 1
-    path: Assets/Scene/ScanMenu.unity
+    path: Assets/Scene/ScanScanAR.unity
     guid: 7a6b7989d0316a54696bef5731a7ec2e
   - enabled: 1
-    path: Assets/Scene/SceneMapa.unity
+    path: Assets/Scene/SceneMap.unity
     guid: b3b81943d6c17c04690dc471fb307795
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 26132014b8116e3428dc1ad0ab8659f8, type: 2}

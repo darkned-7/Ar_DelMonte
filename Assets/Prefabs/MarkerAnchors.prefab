@@ -41,6 +41,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7702321231325883878}
     m_Modifications:
+    - target: {fileID: 238950651662667402, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d901c949a23bab9408e7fb2c3314d5f9, type: 3}
+    - target: {fileID: 415324197918277055, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 7200
+      objectReference: {fileID: 0}
+    - target: {fileID: 415324197918277055, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 9600
+      objectReference: {fileID: 0}
+    - target: {fileID: 415324197918277055, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 415324197918277055, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 415324197918277055, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.003
+      objectReference: {fileID: 0}
     - target: {fileID: 2961757559682045604, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
       propertyPath: m_Name
       value: Pin_Canvas_Video
@@ -76,6 +100,18 @@ PrefabInstance:
     - target: {fileID: 4622924768061702950, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
       propertyPath: m_SizeDelta.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622924768061702950, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622924768061702950, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622924768061702950, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 4622924768061702950, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
       propertyPath: m_LocalPosition.x
@@ -124,6 +160,10 @@ PrefabInstance:
     - target: {fileID: 4622924768061702950, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622924768061702950, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -206,6 +246,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7702321231325883878}
     m_Modifications:
+    - target: {fileID: 238950651662667402, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8ee763c595b8c4641b0b85dbabe2bc93, type: 3}
+    - target: {fileID: 415324197918277055, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 7200
+      objectReference: {fileID: 0}
+    - target: {fileID: 415324197918277055, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 9600
+      objectReference: {fileID: 0}
+    - target: {fileID: 415324197918277055, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 415324197918277055, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 415324197918277055, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.003
+      objectReference: {fileID: 0}
     - target: {fileID: 2961757559682045604, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
       propertyPath: m_Name
       value: Pin_Canvas_Image
@@ -241,6 +305,18 @@ PrefabInstance:
     - target: {fileID: 4622924768061702950, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
       propertyPath: m_SizeDelta.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622924768061702950, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622924768061702950, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622924768061702950, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 4622924768061702950, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
       propertyPath: m_LocalPosition.x
@@ -289,6 +365,10 @@ PrefabInstance:
     - target: {fileID: 4622924768061702950, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622924768061702950, guid: 0d3cb98a80ec95b4792f1b30f0b01fff, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
