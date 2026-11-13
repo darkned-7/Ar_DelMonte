@@ -107,3 +107,6 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+/Assets/Actualizacion/04_LaFrisola/Video_LaFrisola.mp4
+/Assets/Actualizacion/06_LaSuiza/Video_LaSuiza.MP4

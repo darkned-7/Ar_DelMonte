@@ -14,14 +14,16 @@ public class ObjectManipulator : MonoBehaviour
 
     [Header("Cámara")]
     [SerializeField] private Camera interactionCamera;
+    [SerializeField] private Transform cameraResetTarget;
+    private Vector3 initialCameraLocalPosition;
 
-    [Header("Zona de interacción")]
+    [Header("Zona de interaccion")]
     [SerializeField] private RectTransform interactionZone;
     [SerializeField] private Canvas interactionCanvas;
     [SerializeField] private bool ignorePointersOverUI = true;
 
-    [Header("Rotación")]
-    [Tooltip("Desactivado: rotación local original. Activado: rotación respecto a los ejes de la cámara.")]
+    [Header("Rotacion")]
+    [Tooltip("Desactivado: rotacion local original. Activado: rotacion respecto a los ejes de la camara.")]
     [SerializeField] private bool useCameraRelativeRotation = false;
 
     [SerializeField] private float rotationSpeed = 0.25f;
@@ -42,7 +44,7 @@ public class ObjectManipulator : MonoBehaviour
     private Quaternion initialLocalRotation;
     private Vector3 initialLocalScale;
 
-    // Valores acumulados de rotación
+    // Valores acumulados de rotacion
     private float rotationX;
     private float rotationY;
 
@@ -75,8 +77,17 @@ public class ObjectManipulator : MonoBehaviour
         if (interactionCanvas == null && interactionZone != null)
             interactionCanvas = interactionZone.GetComponentInParent<Canvas>();
 
+        // Guardar estado inicial del objeto
         initialLocalRotation = target.localRotation;
         initialLocalScale = target.localScale;
+
+        // Asignar la cámara como referencia si no se especificó otra
+        if (cameraResetTarget == null && interactionCamera != null)
+            cameraResetTarget = interactionCamera.transform;
+
+        // Guardar posición inicial de la cámara
+        if (cameraResetTarget != null)
+            initialCameraLocalPosition = cameraResetTarget.localPosition;
     }
 
     private void OnEnable()
@@ -546,13 +557,22 @@ public class ObjectManipulator : MonoBehaviour
         if (target == null)
             return;
 
+        // Reiniciar valores de manipulación
         rotationX = 0f;
         rotationY = 0f;
         scaleMultiplier = 1f;
 
+        // Restaurar objeto
         target.localRotation = initialLocalRotation;
         target.localScale = initialLocalScale;
 
+        // Restaurar posición inicial de la cámara
+        if (cameraResetTarget != null)
+        {
+            cameraResetTarget.localPosition = initialCameraLocalPosition;
+        }
+
+        // Actualizar slider
         if (scaleSlider != null)
         {
             scaleSlider.SetValueWithoutNotify(
@@ -560,6 +580,7 @@ public class ObjectManipulator : MonoBehaviour
             );
         }
 
+        // Reiniciar estados de interacción
         isDragging = false;
         isPinching = false;
         isMouseDragging = false;
